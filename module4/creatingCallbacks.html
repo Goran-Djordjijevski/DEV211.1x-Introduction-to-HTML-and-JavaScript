@@ -1,0 +1,37 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <script src="js/creatingCallbacks.js"></script>
+
+</head>
+
+<body>
+    <form>
+        <fieldset>
+            <legend>Text Value</legend>
+            Position:
+            <input type="text" name="position" value="" />
+        </fieldset>
+        <fieldset>
+            <legend>Radio Value</legend>
+            <em>Department</em>
+            <br /> FIELD:
+            <input type="radio" name="department" value="Field" checked="checked" />
+            <br /> ITOPS:
+            <input type="radio" name="department" value="IT Operations" />
+            <br /> SALES:
+            <input type="radio" name="department" value="Sales" />
+            <br /> MGMT:
+            <input type="radio" name="department" value="Management" />
+        </fieldset>
+        <button type="button" onclick="saveTextValue()">Save Text</button>
+        <button type="button" onclick="saveRadioValue()">Save Radio</button>
+    </form>
+</body>
+
+</html>
